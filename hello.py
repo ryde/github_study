@@ -11,6 +11,13 @@ def add_owata(text: str) -> str:
     """
     return text + '＼(^o^)／ｵﾜﾀ'
 
+def listing(*args) -> list:
+    """
+    入力された値をリストにして返す
+    """
+    return [i for i in args]
+
+
 if __name__ == '__main__':
 
     print('hello world')
@@ -20,3 +27,6 @@ if __name__ == '__main__':
 
     owata = add_owata('富士通の小学生向けPC')
     print(owata)
+
+    chunk = listing('dr', 34, 43, 33, 45.7, 'Strings of Life')
+    print(chunk)
