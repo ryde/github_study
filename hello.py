@@ -5,6 +5,8 @@ def to_doubles(number: int) -> int:
     """
     return number * 2
 
-print('hello world')
-ans = to_doubles(23)
-print(ans)
+if __name__ == '__main__':
+
+    print('hello world')
+    ans = to_doubles(23)
+    print(ans)
